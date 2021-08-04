@@ -1,0 +1,265 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+/*header start*/
+.menu ul li a{
+	font-size: 20px;
+    text-align: right;
+    padding: 10px 0 0 !important;
+} 
+/*header end*/
+/*slider start*/
+.slider {
+    padding-bottom: 70px;    
+}
+.s-icon ul li {
+    margin-right: 20px !important;
+}
+.s-text {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.s-text h1 {
+    font-size: 25px;
+}
+.s-icon ul li i {
+    font-size: 35px;
+}
+.s-icon ul li {
+    margin-right: 20px !important;
+}
+.c-id [data-bs-target] {
+    width: 13px;
+    height: 13px;
+}
+.c-id {
+    bottom: -65px;
+}
+/*slider end*/
+/*feature start*/
+.feature {
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.c-h1 {
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+.c-p {
+    margin-bottom: 0;
+    font-size: 16px;
+}
+.f-single {
+    margin-top: 30px !important;
+    text-align: center;
+}
+.f-icon i {
+    font-size: 45px;
+    transition: .3s;
+}
+.f-text h2 {
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+/*feature end*/
+/*social start*/
+.contact {
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.mtb-cus {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.c-email {
+    height: 45px;
+    padding: 5px 10px;
+}
+.btn-submit {
+    height: 45px;
+    padding: 5px 10px;
+}
+.c-social ul li a i {
+    font-size: 35px;
+}
+.c-social ul li a {
+    width: 35px;
+    height: 35px;
+}
+.c-social ul li {
+    margin-right: 20px !important;
+}
+/*social end*/
+/*footer start*/
+.f-1{
+    text-align: center;
+    margin-bottom: 35px;
+}
+.f-custom{
+    text-align: center;
+    margin-bottom: 35px;
+}
+footer {
+    padding-bottom: 35px;
+}
+/*footer end*/
+}
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/*header start*/
+.menu ul li a{
+	font-size: 20px;
+    text-align: right;
+    padding: 10px 0 0 !important;
+} 
+/*header end*/
+
+/*slider start*/
+.slider {
+    padding-bottom: 70px;    
+}
+.s-icon ul li {
+    margin-right: 20px !important;
+}
+.s-text {
+    margin-top: 20px;
+}
+.s-icon ul li i {
+    font-size: 35px;
+    transition: .3s;
+}
+.s-icon ul li {
+    margin-right: 20px !important;
+}
+.c-id [data-bs-target] {
+    width: 13px;
+    height: 13px;
+}
+.c-id {
+    bottom: -65px;
+}
+/*slider end*/
+/*feature start*/
+.feature {
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.c-h1 {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.c-p {
+    margin-bottom: 0;
+    font-size: 18px;
+}
+.f-single {
+    margin-top: 30px !important;
+    text-align: center;
+}
+.f-icon i {
+    font-size: 45px;
+    transition: .3s;
+}
+.f-text h2 {
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+/*feature end*/
+/*social start*/
+.contact {
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.mtb-cus {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.c-email {
+    height: 45px;
+    padding: 5px 10px;
+}
+.btn-submit {
+    height: 45px;
+    padding: 5px 10px;
+}
+.c-social ul li a i {
+    font-size: 35px;
+}
+.c-social ul li a {
+    width: 35px;
+    height: 35px;
+}
+.c-social ul li {
+    margin-right: 20px !important;
+}
+/*social end*/
+/*footer start*/
+footer {
+    padding-bottom: 70px;
+}
+.f-1{
+    text-align: center;
+    margin-bottom: 35px;
+}
+.f-custom{
+    text-align: center;
+}
+
+/*footer end*/
+}
+
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .menu ul li a{
+    padding: 10px 0 0 !important;
+    text-align: right;
+}
+.feature{
+    padding-top: 80px !important;
+    padding-bottom: 100px !important;
+}
+.c-p {
+    font-size: 18px;
+}
+.c-h1 {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.f-single {
+    margin-top: 30px;
+}
+/*social start*/
+.mtb-cus {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.contact {
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+/*social end*/
+/*footer start*/
+footer {
+    padding-bottom: 100px;
+}
+/*footer end*/
+}
+
+
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1400px) {
+	
+}
